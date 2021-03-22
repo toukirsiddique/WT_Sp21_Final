@@ -4,7 +4,7 @@
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         $uname=$_POST["uname"];
         $pass=$_POST["pass"];
-        if($uname == "toukir" && $pass == "12345"){
+        if($uname == "toukir" && $pass == "1234567"){
             session_start();
             $_SESSION["user"]=$uname;
             header("Location: dashboard.php");
